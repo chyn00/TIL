@@ -6,3 +6,6 @@ Today I Learned
 
 2일차
 [GC와 JVM](https://github.com/chyn00/TIL/blob/main/Java/GC.md)
+
+3일차
+Static과 JVM
