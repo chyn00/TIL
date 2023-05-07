@@ -9,3 +9,9 @@ Today I Learned
 
 3일차
 Static과 JVM
+
+4일차
+자바의 신 1권 정리 -1
+
+5일차
+자바의 신 1권 정리 -2
