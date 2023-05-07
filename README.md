@@ -2,7 +2,7 @@
 Today I Learned
 
 1일차
-[Int를 활용한 네트워크의 이해](./Java/[Day1] Int를 활용한 네트워크의 이해.md)
+[Int를 활용한 네트워크의 이해](./Java/%5bDay1%5d+Int%eb%a5%bc+%ed%99%9c%ec%9a%a9%ed%95%9c+%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac%ec%9d%98+%ec%9d%b4%ed%95%b4.md)
 
 2일차
 [GC와 JVM](https://github.com/chyn00/TIL/blob/main/Java/GC.md)
