@@ -1,1 +1,0 @@
-# Static과 JVM 예정
