@@ -12,3 +12,6 @@ Today I Learned
 
 4일차, 5일차, 6일차
 [자바의 신 1권 정리 -1](./Java/%5BDay4%2C5%2C6%5D%20%28%EC%A7%84%ED%96%89%EC%A4%91%29%EC%9E%90%EB%B0%94%EC%9D%98%20%EC%8B%A0%201%EA%B6%8C%20%EC%A0%95%EB%A6%AC.md)
+
+8일차
+GC 버전 별 특징
