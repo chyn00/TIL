@@ -1,18 +1,15 @@
 # TIL
 Today I Learned
 
-1. [Int를 활용한 네트워크의 이해](./Java/1.%20Int를%20활용한%20네트워크의%20이해(Day1).md)
-
-2. [GC와 JVM](./Java/2. GC(Day2).md)
-
-3. [Static과 JVM](./Java/3. Static과 JVM(Day 3,7).md)
-
-4. [자바의 신 1권 정리 -1](./Java/4. 자바의 신 1권 정리 ~ 11장.md)
-
-5. 예외처리
-
-6. 다형성 재정리
-
-7. 상속과 합성
-
-8. 제네릭
+0. [자바 바이트 코드 테스트 방법](./Java/자바%20바이트%20코드%20테스트%20방법.md)
+1. [Int를 활용한 네트워크의 이해](./Java/Int를%20활용한%20네트워크의%20이해.md)
+2. [GC](./Java/GC.md)
+3. [Static과 JVM](./Java/Static과%20JVM.md)
+4. [자바의 신 1권 정리(11장까지)](./Java/자바의%20신%201권%20정리(11장까지).md)
+5. [자바의 신 1권 정리(12장)](./Java/자바의%20신%201권%20정리(12장).md)
+6. [GC의 버전별 특징](./Java/GC의%20버전별%20특징.md)
+7. [자바의 신 1권 정리(12장 및 2주차 퀴즈)](./Java/자바의%20신%201권%20정리(12장%20및%202주차%20퀴즈).md)
+8. [예외](./Java/예외.md)
+9. [String](./Java/String.md)
+10. [Inner class](./Java/Inner%20class.md)
+11. [Annotation](./Java/Annotation.md)
