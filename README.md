@@ -1,7 +1,7 @@
 # TIL
 Today I Learned
 
-1. [Int를 활용한 네트워크의 이해](./Java/1. Int를 활용한 네트워크의 이해(Day1).md)
+1. [Int를 활용한 네트워크의 이해](./Java/1.%20Int를%20활용한%20네트워크의%20이해(Day1).md)
 
 2. [GC와 JVM](./Java/2. GC(Day2).md)
 
