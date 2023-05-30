@@ -15,3 +15,4 @@ Today I Learned
 11. [Annotation](https://github.com/chyn00/TIL/blob/main/Java/11.Annotation.md)
 12. 정의 목적 재정리(1권 전부 재정리)
 13. 자바의 신 2권
+14. 자료구조(필수)
