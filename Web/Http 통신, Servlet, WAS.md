@@ -47,6 +47,11 @@
 
 # 참고로 톰캣은 자바로 구현되어있고, 톰캣 내부에 servlet이라는 것도 자바 객체들로 구현되어있음.
 
+# Servlet Life Cycle
+ * Servlet은 최초 Request시 init()으로 초기화된 객체가 생성되고,
+ * 이후부터는 Service Method를 사용한다.(Thread 마다 1개씩 생성)
+ * Destroy또한 마찬가지로 최종 1회 작동(Servlet Container가 제어.)
+
 정리를 위한 OX
 스프링은 무조건 tomcat을 포함한다.(X)
 스프링 부트는 무조건 tomcat을 포함한다.(X)
