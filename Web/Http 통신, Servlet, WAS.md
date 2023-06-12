@@ -41,11 +41,9 @@
 2. 서버를 띄우는 주체는 누구인가? WAS(내부는 자바)
 
 # WAS의 위치
-스프링 or 부트 > 스프링 웹 (의존성 jar) > WAS(tomcat 등)
-
-# 사실 스프링이라는 넓은 범위안에서, 스프링 웹이라는 dependency 안에 WAS(Tomcat 등)이 내장되어있는 것임.
-
-# 참고로 톰캣은 자바로 구현되어있고, 톰캣 내부에 servlet이라는 것도 자바 객체들로 구현되어있음.
+* 스프링 or 부트 > 스프링 웹 (의존성 jar) > WAS(tomcat 등)
+* 사실 스프링이라는 넓은 범위안에서, 스프링 웹이라는 dependency 안에 WAS(Tomcat 등)이 내장되어있는 것임.
+* 참고로 톰캣은 자바로 구현되어있고, 톰캣 내부에 servlet이라는 것도 자바 객체들로 구현되어있음.
 
 # Servlet Life Cycle
  * Servlet은 최초 Request시 init()으로 초기화된 객체가 생성되고,
@@ -53,17 +51,20 @@
  * Destroy또한 마찬가지로 최종 1회 작동(Servlet Container가 제어.)
  * https://www.tutorialspoint.com/servlets/servlets-life-cycle.htm 참조
 
-정리를 위한 OX
-스프링은 무조건 tomcat을 포함한다.(X)
-스프링 부트는 무조건 tomcat을 포함한다.(X)
-tomcat은 자바로 구현된 http 통신을 위한 자바 객체로 이루어진 프로그램이다.(O)
-servlet container를 포함한 WAS와 자바만으로 서버의 요청과 응답을 만드는 것이 가능하다.(O)
-스프링은 웹개발을 쉽게 만들어주는 도구이이지만, 서버를 띄우는 도구는 아니다.(O)
-tomcat만이 WAS는 아니다. jetty라는 것도 존재한다.(O)
-WAS는 Servlet 컨테이너를 포함하고 있으나, 그 자체는 아니다.  HTTP 통신만이 아닌, DB Connection과 같은 부분도 감당한다.(O)
+# ServletContextListener 구현
+ * 웹의 서블릿에 대한 init과 destory를 사용하기도 하지만, DB와 연결할 때 사용할 수도 있다.
 
-결국 자바 HTTP 웹 환경에서 서버를 띄우고, 클라이언트의 요청, 응답을 관리하는 프로그램을 넓은 범위에서 WAS라고 하며, 내부는 Servlet Container가 자바로 구현되어있다.
+# 정리를 위한 OX
+* 스프링은 무조건 tomcat을 포함한다.(X)
+* 스프링 부트는 무조건 tomcat을 포함한다.(X)
+* tomcat은 자바로 구현된 http 통신을 위한 자바 객체로 이루어진 프로그램이다.(O)
+* servlet container를 포함한 WAS와 자바만으로 서버의 요청과 응답을 만드는 것이 가능하다.(O)
+* 스프링은 웹개발을 쉽게 만들어주는 도구이이지만, 서버를 띄우는 도구는 아니다.(O)
+* tomcat만이 WAS는 아니다. jetty라는 것도 존재한다.(O)
+* WAS는 Servlet 컨테이너를 포함하고 있으나, 그 자체는 아니다.  HTTP 통신만이 아닌, DB Connection과 같은 부분도 감당한다.(O)
+
+* 결국 자바 HTTP 웹 환경에서 서버를 띄우고, 클라이언트의 요청, 응답을 관리하는 프로그램을 넓은 범위에서 WAS라고 하며, 내부는 Servlet Container가 자바로 구현되어있다.
 그래서, Servlet에서 규약(헤더, param, body 등)을 활용하여, 웹의 요청들을 자바에서 처리하도록 돕는 것이다.
 
-물론 원론적인 통신외에, 추가 처리가 필요한 부분은 스프링에서 요청에 대해 후처리, 전처리(filter, Interceptor)등을 관리하기는 한다.
+* 물론 원론적인 통신외에, 추가 처리가 필요한 부분은 스프링에서 요청에 대해 후처리, 전처리(filter, Interceptor)등을 관리하기는 한다.
 하지만 자바 웹 통신의 더 작은 단위는 결국 WAS와 Servlet이다.
