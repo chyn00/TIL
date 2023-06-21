@@ -27,3 +27,4 @@ Today I Learned
 23. Spring 기초
 24. 객체지향
 25. AOP, IOC, DI
+26. SOLID
