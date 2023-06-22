@@ -28,3 +28,4 @@ Today I Learned
 24. 객체지향
 25. AOP, IOC, DI
 26. SOLID
+27. SOLID2
