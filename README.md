@@ -29,3 +29,4 @@ Today I Learned
 25. AOP, IOC, DI
 26. SOLID
 27. SOLID2
+28. Project Init Test
