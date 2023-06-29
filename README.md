@@ -30,3 +30,4 @@ Today I Learned
 26. SOLID
 27. SOLID2
 28. Project Init Test
+29. 자료구조 정리
