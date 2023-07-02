@@ -32,3 +32,4 @@ Today I Learned
 28. Project Init Test
 29. 자료구조 정리
 30. MVC
+31. MVC2
