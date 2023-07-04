@@ -33,3 +33,5 @@ Today I Learned
 29. 자료구조 정리
 30. MVC
 31. MVC2
+----프로젝트 시작
+32. 기획(UI/UX)
