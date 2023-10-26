@@ -1,3 +1,5 @@
 Device 테스트 때문에, QA의 stable한 테스트가 필요하다.
 그외에 변경되는 것은 develop에 개발되고 있어야한다. (하지만 개선되는 것은 develop에 머지되면 안된다.)
 dev나 qa나 거의 비슷하긴함. 다만, stable한 테스트 상태를 만들고, develop도 조심해서 쓰자.
+
+develop은 테스트가 느리니까, Hofix는 결함 건 관리로 사용.
